@@ -1,6 +1,6 @@
 # React TypeScript Starter
 
-Simple starter project for writing React with TypeScript. Uses Webpack to compile .tsx to JavaScript. Based on [this guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) on TypeScript website.
+Simple starter project for writing React with TypeScript. Uses Webpack to compile .tsx to JavaScript and Jest for unit tests. Based on [this guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) on TypeScript website.
 
 ## Project structure
 
@@ -8,13 +8,19 @@ Simple starter project for writing React with TypeScript. Uses Webpack to compil
 - `dist` folder for compiled JavaScript files, created on `npm run build`
 - `ìndex.html` starter index file.
 
-## Installing dependencies
+## Install dependencies
 
 ```
 npm install
 ```
 
-## Building code
+## Run tests
+
+```
+npm test
+```
+
+## Build code
 
 ```
 npm run build
