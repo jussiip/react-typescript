@@ -16,4 +16,6 @@ npm install
 
 ## Building code
 
-`npm build`
+```
+npm run build
+```
